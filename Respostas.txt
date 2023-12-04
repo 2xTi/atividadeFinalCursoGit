@@ -1,0 +1,30 @@
+1. Diferenças entre Git e GitHub
+
+Em resumo, o Git é uma ferramenta de controle de versão local, enquanto o GitHub é uma plataforma online que permite hospedar projetos Git e colaborar com outras pessoas.
+
+2. 
+a) A ordem correta dos comandos e:
+
+1. git init: Inicializa um repositorio Git local.
+2. git add: Adiciona as alteracoes feitas no codigo ao indice do Git.
+3. git commit: Cria um novo commit, que representa um ponto de verificacao no historico do codigo, tipo um checkpoint.
+4. git remote add origin <url-do-repositório-remoto>:  Adiciona um repositorio remoto ao Git local.
+5. git push: Envia as alteracoes do repositorio local para o repositorio remoto.
+
+3. Diferencas entre repositorio remoto e local
+
+Um repositorio remoto e um repositorio Git armazenado em um servidor online, como o GitHub. Um repositorio local e um repositorio Git armazenado no proprio computador do usuario.
+
+4. Por que e como utilizar branches em um projeto
+
+Pensando em um trabalho em grupo por conta da utilizacao do git, fica mais facil de alterar multiplas funcoes de uma vez so, tambem da a opcao de testar a funcionalidade antes de implementala na main totalmente e de reverter alteracoes indesejadas.
+
+5. Merge no Git
+
+O merge combina as alteracoes de duas branches diferentes em uma so, utilizo quando quero dar um update na main ou seja, trazer todo conteudo de uma branch paralela para a minha main.
+
+6.
+git pull V
+git git reflog V
+git dbsu F
+git pre-commit F
